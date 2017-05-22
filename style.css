@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+head {
+    display: block;
+}
+
+body {
+    width: 100%;
+    display: block;
+    transition: 1.0s;
+    font-family: 'Questrial', sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+img{
+    margin-left: 55px;
+}
+
+.main {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.color_box {
+    display: inline-block;
+}
+
+.circle {
+    position: relative;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    margin: 15px;
+    
+}
+p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 12px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    -webkit-transition: 1s;
+  　-moz-transition: 1s;
+  　-o-transition: 1s;
+  　-ms-transition: 1s;
+  　transition: 1s;
+    
+    
+}
+
+p:hover {
+    transform: scale(1.5, 1.5);
+    transition: 1s;
+    font-size: 19px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+    
+    
+}
+
+#circle {
+    margin-top: s0px;
+    padding-top: 50px;
+}
+/* Extra small devices (phones, less than 320px) */
+@media (min-width: @screen-sm-min) { 
+
+ }
+
+
+.vesta {
+    background-color: #ff8387;
+}
+
+.etrascan {
+    background-color: #b0755c;
+}
+
+.eros {
+    background-color: #ff8ec2;
+}
+
+.etrascan {
+    background-color: #b0755c;
+}
+
+.empire {
+    background-color: #f08687;
+}
+
+.orchid {
+    background-color: #d67a85;
+}
+
+.opera {
+    background-color: #ec9cba;
+}
+
+.carinho {
+    background-color: #f34c66;
+}
+
+.cupid {
+    background-color: #ff9b9f;
+}
+
+.cloudy {
+    background-color: #aa96a0;
+}
+
+.coral {
+    background-color: #ffa79b;
+}
+
+.spring {
+    background-color: #fc7886;
+}
+
+.dawn {
+    background-color: #ffa4a1;
+}
+
+.du {
+    background-color: #ff7a6b;
+}
+
+.trianon {
+    background-color: #ee897f;
+}
+
+.medows {
+    background-color: #ffaba9;
+}
+
+.agatt {
+    background-color: #8f0023;
+}
+
+.aristoteles {
+    background-color: #bb4a6c;
+}
+
+.volkan {
+    background-color: #a7001f;
+}
+
+.ember {
+    background-color: #ab1e36;
+}
+
+.autumn {
+    background-color: #b1072f;
+}
+
+.cardinal {
+    background-color: #981e34;
+}
+
+.carnival {
+    background-color: #c8002b;
+}
+
+.carmine {
+    background-color: #e10041;
+}
+
+.carmen {
+    background-color: #e91e5a;
+}
+
+.crimson {
+    background-color: #8b0036;
+}
+
+.devil {
+    background-color: #c80036;
+}
+
+.torea {
+    background-color: #d00038;
+}
+
+.fire {
+    background-color: #d70023;
+}
+
+.phoenix {
+    background-color: #e4002b;
+}
+
+.rosario {
+    background-color: #db308c;
+}
+
+.aladdin {
+    background-color: #dd5942;
+}
+
+.eos {
+    background-color: #f05c4e;
+}
+
+.sunset {
+    background-color: #f64f37;
+}
+
+.georie {
+    background-color: #ff732d;
+}
+
+.socrates {
+    background-color: #d04c39;
+}
+
+.soleil {
+    background-color: #ff7321;
+}
+
+.flame {
+    background-color: #e94e47;
+}
+
+.majolica {
+    background-color: #f7723f;
+}
+
+.akbar {
+    background-color: #77120f;
+}
+
+.othello {
+    background-color: #5e4b42;
+}
+
+.gambian {
+    background-color: #7b4411;
+}
+
+.sphynx {
+    background-color: #765244;
+}
+
+.dyres {
+    background-color: #c5be82;
+}
+
+.terra {
+    background-color: #57221b;
+}
+
+.trafalgar {
+    background-color: #997264;
+}
+
+.balzac {
+    background-color: #836449;
+}
+
+.bedouin {
+    background-color: #764f47;
+}
+
+.maroon {
+    background-color: #56001d;
+}
+
+.mist {
+    background-color: #af9090;
+}
+
+.moon {
+    background-color: #fcd8b1;
+}
+
+.riva {
+    background-color: #62362f;
+}
+
+.leghorn {
+    background-color: #e7c59c;
+}
+
+.egg {
+    background-color: #fff3c9;
+}
+
+.gold {
+    background-color: #ffb20f;
+}
+
+.lime {
+    background-color: #ffecc0;
+}
+
+.lemon {
+    background-color: #faff40;
+}
+
+.verdigri {
+    background-color: #5ba080;
+}
+
+.weld {
+    background-color: #c1bc55;
+}
+
+.queen {
+    background-color: #7d985e;
+}
+
+.grass {
+    background-color: #8d9553;
+}
+
+.south{
+    background-color: #003c2f;
+}
+
+.graucas {
+    background-color: #b6bea2;
+}
+
+.crocodile {
+    background-color: #004f57;
+}
+
+.cendrillon {
+    background-color: #3a5551;
+}
+
+.storm {
+    background-color: #c5e3db;
+}
+
+.song {
+    background-color: #3eb4aa;
+}
+
+.fjord {
+    background-color: #009c97;
+}
+
+.fairy {
+    background-color: #a1d4c9;
+}
+
+.academy {
+    background-color: #428abd;
+}
+
+.spray {
+    background-color: #52b3af;
+}
+
+.tint {
+    background-color: #c5e7eb;
+}
+
+.mrin {
+    background-color: #327585;
+}
+
+.aquaris {
+    background-color: #80aeb7;
+}
+
+.adonis {
+    background-color: #00678e;
+}
+
+.aphrodita {
+    background-color: #90cfcb;
+}
+
+.amigo {
+    background-color: #3b91c4;
+}
+
+.arabesque {
+    background-color: #00869f;
+}
+
+.arukadia {
+    background-color: #71c5c6;
+}
+
+.independence {
+    background-color: #001a50;
+}
+
+.winter {
+    background-color: #5c728a;
+}
+
+.westminster {
+    background-color: #121144;
+}
+
+.wedgewood {
+    background-color: #5a8cb3;
+}
+
+.venit {
+    background-color: #389192;
+}
+
+.verona {
+    background-color: #53adb2;
+}
+
+.voltaire {
+    background-color: #c6d3e2;
+}
+
+.ultra {
+    background-color: #2d3289;
+}
+
+.april {
+    background-color: #88b6c9;
+}
+
+.ophelia {
+    background-color: #7ac7be;
+}
+
+.orion {
+    background-color: #50c2dc;
+}
+
+.cloud {
+    background-color: #5a728f;
+}
+
+.clear {
+    background-color: #1886a2;
+}
+
+.goethe {
+    background-color: #003b73;
+}
+
+.leaf {
+    background-color: #00748a;
+}
+
+.cosmic {
+    background-color: #0070a3;
+}
+
+.southern {
+    background-color: #7fb0d2;
+}
+
+.twilight {
+    background-color: #889cba;
+}
+
+.north {
+    background-color: #393b3e;
+}
+
+.nocturne {
+    background-color: #191c32;
+}
+
+.parotte {
+    background-color: #0098b6;
+}
+
+.versaille {
+    background-color: #7da8ab;
+}
+
+.myosotis {
+    background-color: #5cc9ed;
+}
+
+.antique {
+    background-color: #945a77;
+}
+
+.vainas {
+    background-color: #d1a5ac;
+}
+
+.westaria {
+    background-color: #7b639c;
+}
+
+.old {
+    background-color: #635375;
+}
+
+.oxblood {
+    background-color: #590322;
+}
+
+.king {
+    background-color: #700e97;
+}
+
+.gothic {
+    background-color: #59003a;
+}
+
+.shakspeare {
+    background-color: #28204b;
+}
+
+.charles {
+    background-color: #590027;
+}
+
+.chourouge {
+    background-color: #570030;
+}
+
+.suger {
+    background-color: #820041;
+}
+
+.neptune {
+    background-color: #287d7d;
+}
+
+.pharao {
+    background-color: #344d84;
+}
+
+.acropolis {
+    background-color: #f4dec4;
+}
+
+.alabaster {
+    background-color: #fcdfd4;
+}
+
+.edelweiss {
+    background-color: #fff3e1;
+}
+
+.elfenbein {
+    background-color: #ffe9d6;
+}
+
+.gun {
+    background-color: #2e1e29;
+}
+
+.stalactite {
+    background-color: #ffe5d0;
+}
+
+.zeus {
+    background-color: #001d2a;
+}
+
+.battleship {
+    background-color: #545257;
+}
+
+.stone {
+    background-color: #a0a3a0;
+}
+
+.unicorn {
+    background-color: #f5f4f9;
+}
+.garden{
+    background-color: #deefea;
+}
+.goose{
+    background-color: #323934;
+}
+.citron{
+    background-color: #f1f2d9;
+}
+.last {
+    position: static;
+    color: #fff;
+    font-size: 183px;
+    margin: 20px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+small {
+    text-align: center;
+    font-size: 0.85em;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    width: 100%;
+    clear: both;
+    height: 0px;
+    padding-top: 10px;
+    display: block;
+}
